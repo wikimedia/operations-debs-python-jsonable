@@ -1,0 +1,14 @@
+Source: jsonable
+Maintainer: Yuvi Panda <yuvipanda@riseup.net>
+Section: python
+Priority: optional
+Build-Depends: python3-setuptools, python3-all, debhelper (>= 9)
+Homepage: https://github.com/halfak/python-jsonable
+Standards-Version: 3.9.6
+
+Package: python3-jsonable
+Architecture: any
+Depends: ${misc:Depends}, ${python3:Depends}, ${shlibs:Depends}
+Description: Provides base classes for objects that can be converted to JSON
+ This library provides and abstract base class JSONable which enables easy 
+ definition of trivially JSON-able python objects.

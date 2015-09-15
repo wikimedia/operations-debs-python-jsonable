@@ -1,0 +1,3 @@
+version=3
+opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/python-jsonable-$1\.tar\.gz/ \
+  https://github.com/halfak/python-jsonable/tags .*/v?(\d\S*)\.tar\.gz
